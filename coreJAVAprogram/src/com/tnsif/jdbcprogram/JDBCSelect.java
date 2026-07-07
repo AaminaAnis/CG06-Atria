@@ -20,7 +20,7 @@ public class JDBCSelect {
         Connection conn = DriverManager.getConnection(
                 "jdbc:postgresql://localhost:5432/AtriaCG07",
                 "postgres",
-                "$Aamina@2k4$"   // Replace with your PostgreSQL password if different
+                "xyz"   // Replace with your PostgreSQL password if different
         );
 
         System.out.println("Step 2: Connection Established Successfully");
